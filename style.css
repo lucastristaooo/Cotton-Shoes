@@ -183,6 +183,9 @@ h3{
     padding: 30px;
     font-weight: 300;
 }
+.footer p{
+    font-size: 0.9em;
+}
 .footer h4{
     margin-top: 25px;
     margin-bottom: 25px;
