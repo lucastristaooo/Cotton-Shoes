@@ -175,6 +175,19 @@ h3{
 .cta a:hover{
     background-color: #243754;
 }
+.footer{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    text-align: center;
+    padding: 30px;
+    font-weight: 300;
+}
+.footer h4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
 @media(max-width: 800px){
     .texto h1{
         font-size: 3.5em;
@@ -187,7 +200,7 @@ h3{
         display: block;
         position: absolute;
         background-color: #243754;
-        height: 94vh;
+        height: 95vh;
         width: 100px;
         padding: 21.5px;
         top: 0px;
