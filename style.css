@@ -231,3 +231,8 @@ h3{
         flex-direction: column;
     }
 }
+@media(max-width: 800px){
+    .cta h1{
+        font-size: 1.5em;
+    }
+}
