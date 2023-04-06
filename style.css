@@ -207,14 +207,14 @@ h3{
     }
     .navlinks a{
         display: block;
-        padding: 15px 15px;
+        padding: 10px 30px;
     }
     .navlinks{
         display: block;
         position: absolute;
         background-color: #243754;
-        height: 95vh;
-        width: 100px;
+        height: 94.5vh;
+        width: 150px;
         padding: 21.5px;
         top: 0px;
         right: -100px;
