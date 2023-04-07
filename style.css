@@ -266,6 +266,7 @@ p > img{
 @media(max-width: 800px){
     .bloco1 img{
         margin-left: -26.8px;
+        width: 350px;
     }
     .bloco2 img{
         margin-left: -26.8px;
