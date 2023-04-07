@@ -270,9 +270,11 @@ p > img{
     }
     .bloco2 img{
         margin-left: -26.8px;
+        width: 330px;
     }
     .bloco3 img{
         margin-left: -26.8px;
+        width: 350px;
     }
 }
 @media(max-width: 800px){
