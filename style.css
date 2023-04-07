@@ -14,6 +14,10 @@
     background-size: cover;
     position: relative;
 }
+#idiomas{
+    display: flex;
+    flex-direction: row;
+}
 .iconesheader{
     width: 30px;
 }
@@ -104,7 +108,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: aliceblue;
+    background-color: rgb(210, 202, 165);
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -112,7 +116,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: aliceblue;
+    background-color: rgb(64, 116, 140);
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -120,18 +124,25 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: aliceblue;
+    background-color: rgb(160, 180, 189);
     box-sizing: border-box;
     transition: 0.5s;
 }
 h3{
     margin: 10px 0;
     text-align: center;
-    font-weight: 600;
+    font-weight: 200;
+    color: white; 
 }
 .bloco1:hover, .bloco2:hover, .bloco3:hover{
     translate: -2px 2px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.2);
+}
+p > img{
+    width: 350px;
+}
+.sozinho{
+    width: 350px;
 }
 .loc{
     width: 80%;
@@ -150,7 +161,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(imagens/pexels-robert-jeffrey-bonto-9218066.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(imagens/pexels-fauxels-3184660.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +224,7 @@ h3{
         display: block;
         position: absolute;
         background-color: #243754;
-        height: 96.4vh;
+        height: 96.5vh;
         width: 200px;
         padding: 15px;
         top: 0px;
@@ -221,7 +232,6 @@ h3{
         text-align: left;
         z-index: 2;
         transition: 1s;
-        text-align: left;
     }
     .navlinks a::after{
         content: "";
@@ -251,6 +261,17 @@ h3{
     .logo{
         left: 50%;
         translate: -50%;
+    }
+}
+@media(max-width: 800px){
+    .bloco1 img{
+        margin-left: -26.8px;
+    }
+    .bloco2 img{
+        margin-left: -26.8px;
+    }
+    .bloco3 img{
+        margin-left: -26.8px;
     }
 }
 @media(max-width: 800px){
