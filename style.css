@@ -213,8 +213,8 @@ h3{
         display: block;
         position: absolute;
         background-color: #243754;
-        height: 94.5vh;
-        width: 150px;
+        height: 95vh;
+        width: 200px;
         padding: 15px;
         top: 0px;
         right: -100px;
@@ -239,7 +239,7 @@ h3{
         display: block;
         position: absolute;
         top: -2px;
-        right: 145px;
+        right: 195px;
         padding-top: 10px;
     }
     .icons1{
