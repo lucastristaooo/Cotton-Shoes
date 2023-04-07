@@ -57,6 +57,9 @@
 .navlinks a:hover::after{
     width: 100%;
 }
+.navlinkscelular a{
+    display: none;
+}
 .texto{
     position: absolute;
     top: 50%;
@@ -212,28 +215,49 @@ p > img{
 .iconfooter > a{
     padding: 5px
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .texto h1{
         font-size: 3.5em;
+        width: 330px;
     }
-    .navlinks a{
+    .navlinkscelular a{
+        margin-top: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    .navlinkscelular a::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: #243754;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .navlinkscelular a:hover::after{
+        width: 100%;
+    }
+    .navlinks{
+        display: none;
+    }
+    .navlinkscelular a{
         display: block;
         padding: 13px 5px;
     }
-    .navlinks{
+    .navlinkscelular{
         display: block;
         position: absolute;
         background-color: #243754;
         height: 96.2vh;
-        width: 200px;
+        width: 125px;
         padding: 15px;
         top: 0px;
-        right: -100px;
-        text-align: left;
+        right: 0px;
+        text-align: center;
         z-index: 2;
         transition: 1s;
     }
-    .navlinks a::after{
+    .navlinkscelular a::after{
         content: "";
         width: 0%;
         height: 2px;
@@ -242,15 +266,21 @@ p > img{
         margin: auto;
         transition: 0.5s;
     }
-    .navlinks a:hover::after{
+    .navlinks1celular a:hover::after{
         width: 100%;
     }
-    .navlinks .icons{
+    .navlinks1celular .icons{
         display: block;
         position: absolute;
         top: -2px;
         right: 195px;
         padding-top: 10px;
+    }
+    .icons{
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 3px;
     }
     .icons1{
         display: block;
@@ -263,26 +293,33 @@ p > img{
         translate: -50%;
     }
 }
-@media(max-width: 800px){
+@media(max-width: 1250px){
+    .container{
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
     .bloco1 img{
         margin-left: -26.8px;
         width: 320px;
+        display: block;
+        margin: auto;
     }
     .bloco2 img{
         margin-left: -26.8px;
         width: 320px;
+        display: block;
+        margin: auto;
     }
     .bloco3 img{
         margin-left: -26.8px;
         width: 320px;
+        display: block;
+        margin: auto;
     }
+
 }
-@media(max-width: 800px){
-    .container{
-        flex-direction: column;
-    }
-}
-@media(max-width: 800px){
+@media(max-width: 900px){
     .cta h1{
         font-size: 1.5em;
     }

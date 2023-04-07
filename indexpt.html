@@ -13,9 +13,20 @@
         <section class="header">
             <a href="#"><img class="logo" src="imagens/logo.png" alt="Cotton Shoes"></a>
             <nav>
-                <img class="icons1" src="imagens/icons8-menu-arredondado-30.png" alt="Menu" onclick="showmenu()">
-                <div class="navlinks" id="navlinks">
-                    <img class="icons" src="imagens/icons8-excluir-30.png" alt="Fechar" onclick="hidemenu()">
+                <div class="navlinks">
+                    <a href="#">Início</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Produtos</a>
+                    <a href="#">Contato</a>
+                    <div id="idiomas">
+                        <a href=""><img class="iconesheader" src="imagens/icons8-brazil-48.png" alt="Portuguese"></a>
+                        <a href=""><img class="iconesheader" src="imagens/icons8-usa-48.png" alt="English"></a>
+                        <a href=""><img class="iconesheader" src="imagens/icons8-spain-48.png" alt="Spanish"></a>
+                    </div>
+                </div>
+                <img class="icons1" src="imagens/icons8-menu-arredondado-32.png" alt="Menu" onclick="showmenu()">
+                <div class="navlinkscelular" id="navlinkscelular">
+                    <img class="icons" src="imagens/icons8-fechar-janela-32.png" alt="Fechar" onclick="hidemenu()">
                     <a href="#">Início</a>
                     <a href="#">Sobre</a>
                     <a href="#">Produtos</a>
@@ -82,9 +93,9 @@
             <h4>Sobre nós</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, facere.</p>
             <nav class="iconfooter">
-                <a target="_blank" href="https://www.facebook.com/CottonCalcados/"><img src="imagens/icons8-facebook-24(1).png" alt="Facebook"></a>
-                <a target="_blank" href=""><img src="imagens/icons8-twitter-24.png" alt="Twitter"></a>
+                <a target="_blank" href="https://www.facebook.com/CottonCalcados/"><img src="imagens/icons8-facebook-24.png" alt="Facebook"></a>
                 <a target="_blank" href="https://www.instagram.com/cottonshoes/?hl=pt"><img src="imagens/icons8-instagram-24.png" alt="Instagram"></a>
+                <a target="_blank" href=""><img src="imagens/icons8-twitter-24.png" alt="Twitter"></a>
             </nav>
             <p>
                 Made with ❤ by Lucas Tristão.
@@ -92,12 +103,12 @@
         </section>
     </main>
     <script>
-        var navlinks = document.getElementById("navlinks")
+        var navlinkscelular = document.getElementById("navlinkscelular")
         function showmenu(){
-            navlinks.style.right = "-100px";
+            navlinkscelular.style.display = "block";
         }
         function hidemenu(){
-            navlinks.style.right = "-260px";
+            navlinkscelular.style.display = "none";
         }
     </script>
 </body>
