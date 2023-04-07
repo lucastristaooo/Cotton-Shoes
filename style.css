@@ -147,19 +147,33 @@ p > img{
 .sozinho{
     width: 350px;
 }
-.loc{
-    width: 80%;
-    margin: auto;
+#sobre h1{
+    padding-bottom: 10px;
     text-align: center;
-    padding: 50px;
-}
-.loc h1{
     font-size: 2em;
     font-weight: 600;
 }
-.loc p{    
+#sobre h3{
+    color: black;
+    padding-bottom: 20px;
     font-weight: 300;
-    padding: 20px;
+}
+#sobre p{
+    font-weight: 300;
+}
+#sobre{
+    text-align: justify;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px 20px 100px 20px;
+    background-color: white;
+}
+.textao{
+    width: 300px;
+    margin: auto;
 }
 .cta{
     margin: 100px auto;
@@ -214,6 +228,9 @@ p > img{
 }
 .iconfooter > a{
     padding: 5px
+}
+.coluna h3{
+    color: black;
 }
 @media(max-width: 900px){
     .texto h1{
