@@ -88,16 +88,20 @@
     .tamanho img{
         width: 300px;
         height: 250px;
-        top: 900px;
         left: 50%;
         translate: -50%;
-        display: block;
         transition: 0.5s;
     }
     .meutexto a{
-        left: 13.7%;
+        left: 16%;
+    }
+    .imagem{
+        position: absolute;
+        top: 66.5%;
+        left: 50%;
     }
     .footer{
         margin-top: 300px;
     }
+
 }
