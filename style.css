@@ -218,6 +218,9 @@ p > img{
     color: black;
 }
 @media(max-width: 900px){
+    .logo{
+        width: 170px;
+    }
     .texto h1{
         font-size: 3.5em;
         width: 330px;
