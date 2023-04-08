@@ -221,8 +221,11 @@ p > img{
     .logo{
         width: 170px;
     }
+    .texto{
+        font-size: 0.9em;
+    }
     .texto h1{
-        font-size: 3.5em;
+        font-size: 3.3em;
         width: 330px;
         margin: auto    ;
     }
@@ -307,19 +310,19 @@ p > img{
     }
     .bloco1 img{
         margin-left: -26.8px;
-        width: 280px;
+        width: 220px;
         display: block;
         margin: auto;
     }
     .bloco2 img{
         margin-left: -26.8px;
-        width: 280px;
+        width: 220px;
         display: block;
         margin: auto;
     }
     .bloco3 img{
         margin-left: -26.8px;
-        width: 280px;
+        width: 220px;
         display: block;
         margin: auto;
     }
