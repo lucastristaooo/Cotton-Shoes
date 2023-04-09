@@ -310,26 +310,105 @@ p > img{
     }
     .bloco1 img{
         margin-left: -26.8px;
-        width: 220px;
+        width: 450px;
         display: block;
         margin: auto;
     }
     .bloco2 img{
         margin-left: -26.8px;
-        width: 220px;
+        width: 450px;
         display: block;
         margin: auto;
     }
     .bloco3 img{
         margin-left: -26.8px;
-        width: 220px;
+        width: 450px;
         display: block;
         margin: auto;
     }
 
 }
+@media(max-width: 700px){
+    .container{
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+    .bloco1 img{
+        margin-left: -26.8px;
+        width: 240px;
+        display: block;
+        margin: auto;
+    }
+    .bloco2 img{
+        margin-left: -26.8px;
+        width: 240px;
+        display: block;
+        margin: auto;
+    }
+    .bloco3 img{
+        margin-left: -26.8px;
+        width: 240px;
+        display: block;
+        margin: auto;
+    }
+}
+@media(max-width: 350px){
+    .container{
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+    .bloco1 img{
+        margin-left: -26.8px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .bloco2 img{
+        margin-left: -26.8px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .bloco3 img{
+        margin-left: -26.8px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+}
 @media(max-width: 900px){
     .cta h1{
         font-size: 1.5em;
+    }
+}
+@media(max-width: 900px){
+    .cta h1{
+        font-size: 1.5em;
+    }
+}
+@media(max-width: 300px){
+    .logo{
+        width: 120px;
+    }
+    .texto h1{
+        font-size: 2em;
+    }
+    .texto p{
+        font-size: 0.8em;
+        margin: auto;
+        width: 200px;
+    }
+}
+@media(max-width: 240px){
+    .bloco1 img{
+        width: 120px;
+    }
+    .bloco2 img{
+        width: 120px;
+    }
+    .bloco3 img{
+        width: 120px;
     }
 }
