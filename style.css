@@ -217,6 +217,15 @@ p > img{
 .coluna h3{
     color: black;
 }
+.bloco1 img{
+    width: 350px;
+}
+.bloco2 img{
+    width: 350px;
+}
+.bloco3 img{
+    width: 350px;
+}
 @media(max-width: 900px){
     .logo{
         width: 170px;
@@ -302,7 +311,7 @@ p > img{
         translate: -50%;
     }
 }
-@media(max-width: 1250px){
+@media(max-width: 1325px){
     .container{
         flex-direction: column;
         display: block;
@@ -326,7 +335,6 @@ p > img{
         display: block;
         margin: auto;
     }
-
 }
 @media(max-width: 700px){
     .container{
