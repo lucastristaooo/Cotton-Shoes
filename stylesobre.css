@@ -183,3 +183,123 @@
         margin-top: 300px;   
     }
 }
+@media(max-width: 295px){
+    .logo{
+        width: 140px;
+    }
+    .meutexto{  
+        text-align: justify;
+        font-size: 0.9em;
+        width: 200px;
+        margin-left: -30px;
+    }
+    .meutexto h1{
+        width: 250px;
+        font-size: 2em;
+        text-align: left;
+    }
+    .tamanho{
+        padding: 100px 25px 100px 70px;
+        width: 260px;
+        margin: auto;
+        text-align: center;
+    }
+    .tamanho img{
+        width: 220px;
+        height: 170px;
+        left: 50%;
+        translate: -50%;
+        transition: 0.5s;
+    }
+    .meutexto a{
+        left: 8%;
+    }
+    .imagem{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+    }
+    .footer{
+        margin-top: 300px;   
+    }
+}
+@media(max-width: 285px){
+    .logo{
+        width: 140px;
+    }
+    .meutexto{  
+        text-align: justify;
+        font-size: 0.9em;
+        width: 200px;
+        margin-left: -30px;
+    }
+    .meutexto h1{
+        width: 250px;
+        font-size: 2em;
+        text-align: left;
+    }
+    .tamanho{
+        padding: 100px 25px 100px 67px;
+        width: 260px;
+        margin: auto;
+        text-align: center;
+    }
+    .tamanho img{
+        width: 220px;
+        height: 170px;
+        left: 50%;
+        translate: -50%;
+        transition: 0.5s;
+    }
+    .meutexto a{
+        left: 8%;
+    }
+    .imagem{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+    }
+    .footer{
+        margin-top: 300px;   
+    }
+}
+@media(max-width: 275px){
+    .logo{
+        width: 140px;
+    }
+    .meutexto{  
+        text-align: justify;
+        font-size: 0.9em;
+        width: 200px;
+        margin-left: -30px;
+    }
+    .meutexto h1{
+        width: 250px;
+        font-size: 2em;
+        text-align: left;
+    }
+    .tamanho{
+        padding: 100px 25px 100px 60px;
+        width: 260px;
+        margin: auto;
+        text-align: center;
+    }
+    .tamanho img{
+        width: 220px;
+        height: 170px;
+        left: 50%;
+        translate: -50%;
+        transition: 0.5s;
+    }
+    .meutexto a{
+        left: 6%;
+    }
+    .imagem{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+    }
+    .footer{
+        margin-top: 300px;   
+    }
+}
