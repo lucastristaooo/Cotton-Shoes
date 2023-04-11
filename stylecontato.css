@@ -11,9 +11,46 @@
     color: black;
     text-align: justify;
     position: absolute;
-    top: 800px;
+    top: 600px;
 }
-.meutexto a{
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.toma{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: -moz-linear-gradient(to bottom, white, rgb(255, 240, 213) 80%, white);
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+input{
+    margin: 10px 30px 15px 0px;
+    box-shadow: 1px 1px 5px grey;
+}
+textarea{
+    border: 1px solid grey;
+    box-shadow: 1px 1px 5px grey;
+}
+.flex img{
+    width: 35px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #243754;
+    margin-bottom: 100px;
+}
+.flex a{
+    position: relative;
     border: 1px solid #243754;
     text-decoration: none;
     color: #243754;
@@ -21,12 +58,9 @@
     background: transparent;
     transition: 0.5s;
 }
-.meutexto a:hover{
+a:hover{
     background-color: #243754;
     color: white;
-}
-.flex p img{
-    width: 35px;
 }
 .texto{
     position: absolute;
@@ -40,109 +74,53 @@
     font-size: 2.5em;
     font-weight: 600;
 }
-h1{
-    font-size: 2em;
-    text-align: center;
-    margin-top: 100px;
-}
-form{
-    margin: auto;
-    text-align: center;
-    margin: 50px;
-}
-form input, legend{
-    padding: 3px;
-    margin: 10px;
-}
 .meutexto{
+    text-align: justify;
     font-size: 1em;
     font-weight: 300;
-}
-.flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: auto;
 }
 .meutexto h1{
     font-size: 2em;
     font-weight: 600;
     margin-bottom: 20px;
 }
-textarea{
-    width: 40%;
-    border-radius: 10px;
-    border: 1px solid black;
+.meutexto p{
+    margin-top: 40px;
 }
-iframe{
-    width: 80%;
-    display: block;
-    margin: auto;
+.tamanho{
+    margin: 200px;
+    width: 600px;
+}
+.tamanho img{
+    width: 500px;
+    height: 450px;
     border-radius: 5px;
-    padding-bottom: 100px;
-    padding-top: 50px;
+    position: absolute;
+    top: 500px;
+    left: 840px;
+    margin-right: 200px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
 }
 @media(max-width: 1350px){
-    .logo{
-        width: 150px;
+    .footer{
+        margin: 0px;
     }
-    .meutexto h1{
-        width: 250px;
-        font-size: 2em;
+}
+@media(max-width: 700px){
+    .toma{
+        display: block;
+        margin: auto;
         text-align: center;
     }
-    .meutexto{
-        margin: auto;
+    .flex{
+        margin-top: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 50px;
+        text-align: justify;
     }
-    textarea{
-        width: 300px;
-    }
-    a{
-        margin-right: 230px;
-    }
-}
-@media(max-width: 340px){
-        .logo{
-            width: 140px;
-        }
-        .meutexto h1{
-            width: 250px;
-            font-size: 2em;
-            text-align: left;
-        }
-        .meutexto{
-            margin: auto;
-        }
-        a{
-            margin-left: 30px;
-        }
-}
-@media(max-width: 380px){
-    .logo{
-        width: 140px;
-    }
-    .meutexto{ 
-        font-size: 0.9em;
-        width: 200px;
-        margin-left: -30px;
-    }
-    .meutexto h1{
-        width: 250px;
-        font-size: 2em;
-        text-align: left;
-    }
-    .meutexto{
-        margin: auto;
-    }
-    input{
-        width: 115px;
-    }
-    textarea{
-        width: 150px;
-    }
-    a{
-        margin-right: 200px;
+    form{
+        padding-bottom: 50px;
     }
 }
