@@ -1,0 +1,148 @@
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(imagens/pexels-photo-631986.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.texto{
+    color: black;
+    text-align: justify;
+    position: absolute;
+    top: 800px;
+}
+.meutexto a{
+    border: 1px solid #243754;
+    text-decoration: none;
+    color: #243754;
+    padding: 12px 34px;
+    background: transparent;
+    transition: 0.5s;
+}
+.meutexto a:hover{
+    background-color: #243754;
+    color: white;
+}
+.flex p img{
+    width: 35px;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+    text-align: center;
+}
+.texto h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 100px;
+}
+form{
+    margin: auto;
+    text-align: center;
+    margin: 50px;
+}
+form input, legend{
+    padding: 3px;
+    margin: 10px;
+}
+.meutexto{
+    font-size: 1em;
+    font-weight: 300;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+.meutexto h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+iframe{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+@media(max-width: 1350px){
+    .logo{
+        width: 150px;
+    }
+    .meutexto h1{
+        width: 250px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .meutexto{
+        margin: auto;
+    }
+    textarea{
+        width: 300px;
+    }
+    a{
+        margin-right: 230px;
+    }
+}
+@media(max-width: 340px){
+        .logo{
+            width: 140px;
+        }
+        .meutexto h1{
+            width: 250px;
+            font-size: 2em;
+            text-align: left;
+        }
+        .meutexto{
+            margin: auto;
+        }
+        a{
+            margin-left: 30px;
+        }
+}
+@media(max-width: 380px){
+    .logo{
+        width: 140px;
+    }
+    .meutexto{ 
+        font-size: 0.9em;
+        width: 200px;
+        margin-left: -30px;
+    }
+    .meutexto h1{
+        width: 250px;
+        font-size: 2em;
+        text-align: left;
+    }
+    .meutexto{
+        margin: auto;
+    }
+    input{
+        width: 115px;
+    }
+    textarea{
+        width: 150px;
+    }
+    a{
+        margin-right: 200px;
+    }
+}
