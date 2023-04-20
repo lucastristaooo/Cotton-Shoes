@@ -111,7 +111,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: rgb(210, 202, 165);
+    background-color: rgb(165, 179, 188);
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -127,7 +127,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: rgb(160, 180, 189);
+    background-color: rgb(169, 169, 169);
     box-sizing: border-box;
     transition: 0.5s;
 }
