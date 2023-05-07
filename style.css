@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(imagens/pexels-robert-jeffrey-bonto-9218066.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(imagens/88099600_2972687449436226_2510389542490472448_n.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: rgb(165, 179, 188);
+    background-color: rgb(213, 203, 168);
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -127,7 +127,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(170, 170, 170);
     box-sizing: border-box;
     transition: 0.5s;
 }
